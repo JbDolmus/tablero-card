@@ -5,7 +5,8 @@ import { styled } from "@mui/system";
 
 const KanbanBoard = styled('div')({
   display: 'flex',
-  gap: '16px',
+  gap: '1rem',
+  justifyContent: 'center'
 });
 
 const Board = () => {
