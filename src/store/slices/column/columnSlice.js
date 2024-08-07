@@ -1,9 +1,9 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = [
-  { id: 'column-1', title: 'Pendiente', cardIds: ['card-1'] },
-  { id: 'column-2', title: 'En Proceso', cardIds: [] },
-  { id: 'column-3', title: 'Completado', cardIds: [] },
+  { id: 'col-1', title: 'Pendiente', cardIds: ['card-1'] },
+  { id: 'col-2', title: 'En Proceso', cardIds: [] },
+  { id: 'col-3', title: 'Completado', cardIds: [] },
 ];
 
 const columnSlice = createSlice({
